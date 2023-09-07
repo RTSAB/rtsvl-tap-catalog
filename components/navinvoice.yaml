@@ -5,7 +5,9 @@ metadata:
   description: Navision Invoicing
   annotations: 
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=navinvoice"
-    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://rts.se
+      title: RTS Home
 spec:
   type: service
   lifecycle: experimental
