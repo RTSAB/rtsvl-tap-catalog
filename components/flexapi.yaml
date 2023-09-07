@@ -7,4 +7,10 @@ spec:
   type: openapi
   lifecycle: production
   owner: default-team
-  definition:
+  definition:  |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Artist API
+      license:
+        name: MIT
