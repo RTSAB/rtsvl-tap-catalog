@@ -2,7 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: navinvoice
-  annotations:
+  description: 
+  annotations: Navision Invoicing
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=navinvoice"
     backstage.io/techdocs-ref: dir:.
 spec:
