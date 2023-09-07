@@ -8,9 +8,7 @@ spec:
   lifecycle: production
   owner: default-team
   definition:  |
-    openapi: "3.0.0"
+    openapi: "2.0.0"
     info:
       version: 1.0.0
-      title: Artist API
-      license:
-        name: MIT
+      title: Flex HRM API
