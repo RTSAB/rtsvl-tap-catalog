@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: flexhrm-api
+  description: Retrieve Project details
+spec:
+  type: openapi
+  lifecycle: production
+  owner: default-team
