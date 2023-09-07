@@ -12,3 +12,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: default-team
+  consumesApis:
+    - flexHRM
