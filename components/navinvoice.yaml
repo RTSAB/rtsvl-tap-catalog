@@ -13,4 +13,4 @@ spec:
   lifecycle: experimental
   owner: default-team
   consumesApis:
-    - flexHRM
+    - flexhrmapi
