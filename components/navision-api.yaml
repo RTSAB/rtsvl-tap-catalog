@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: navisionapi
+  description: Retrieve Project details
+spec:
+  type: openapi
+  lifecycle: production
+  owner: default-team
+  definition:  |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Artist API
+      license:
+        name: MIT
